@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "shreya-test-335914-tfstate"
     prefix = "env/prod"
   }
 }
